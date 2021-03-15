@@ -22,6 +22,30 @@
   	<description></description>
   	<servlet-class>firstweb.ExportProduct</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>WriteCookie</servlet-name>
+  	<display-name>WriteCookie</display-name>
+  	<description></description>
+  	<servlet-class>cookiesession.WriteCookie</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ReadCookie</servlet-name>
+  	<display-name>ReadCookie</display-name>
+  	<description></description>
+  	<servlet-class>cookiesession.ReadCookie</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>WriteSession</servlet-name>
+  	<display-name>WriteSession</display-name>
+  	<description></description>
+  	<servlet-class>cookiesession.WriteSession</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ReadSession</servlet-name>
+  	<display-name>ReadSession</display-name>
+  	<description></description>
+  	<servlet-class>cookiesession.ReadSession</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>ServletDemo</servlet-name>
   	<url-pattern>/ServletDemo</url-pattern>
@@ -33,5 +57,21 @@
   <servlet-mapping>
   	<servlet-name>ExportProduct</servlet-name>
   	<url-pattern>/ExportProduct</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>WriteCookie</servlet-name>
+  	<url-pattern>/WriteCookie</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ReadCookie</servlet-name>
+  	<url-pattern>/ReadCookie</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>WriteSession</servlet-name>
+  	<url-pattern>/WriteSession</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ReadSession</servlet-name>
+  	<url-pattern>/ReadSession</url-pattern>
   </servlet-mapping>
 </web-app>
